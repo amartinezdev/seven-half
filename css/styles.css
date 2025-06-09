@@ -1,0 +1,123 @@
+*{
+    margin: auto;
+}
+
+body{
+    background-image: url(../images/fondo.jpg);
+    font-family: Open Sans;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    text-shadow: 5px 5px 2px #000000;    
+}
+
+div.botones{
+    display: flex;
+    justify-content: left;
+    width: 300px;
+    height: auto;
+    margin-bottom: 25px;
+    color:chartreuse
+}
+
+div.contenedor {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.score {
+    background-color: beige;
+    width: 300px; 
+    height: 200px; 
+    box-shadow: 5px 5px;
+    border-radius: 10px;
+}
+
+div.imagenes {
+    background-color: white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#demoplayer{
+    text-align: center;
+    text-shadow: 15px;
+    font-weight: bolder;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#pcScore{
+    font-size: 25px;
+    text-shadow: 2px 2px 4px;
+}
+
+#playerScore{
+    font-size: 25px;
+    text-shadow: 2px 2px 4px;
+}
+
+#demopc{
+    text-align: center;
+    text-shadow: 15px;
+    font-weight: bolder;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#imagen{
+    border-radius: 13px;
+    box-shadow: 5px 5px;
+}
+
+#mostrarCarta{
+    width: 120px;
+    height: 35px;
+    font-weight: 900;
+    font-family: Open Sans;
+    box-shadow: 5px 5px;
+}
+
+#plantar{
+    width: 120px;
+    height: 35px;
+    font-weight: 900;
+    font-family: Open Sans;
+    box-shadow: 5px 5px;
+}
+
+#puntuacion{
+    display:flex;
+    background-color: beige;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+}
+
+#puntuacion2{
+    display:flex;
+    background-color: beige;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+}
+
