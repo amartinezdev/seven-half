@@ -56,6 +56,7 @@ function puedoSeguir() {
     document.getElementById("puntuacion").style.backgroundColor = "crimson";
     document.getElementById("demopc").innerHTML += "Me lo has puesto fácil 😎";
     document.getElementById("puntuacion2").style.backgroundColor = "chartreuse";
+    document.getElementById("puntuacion2").innerHTML = "¡Has Perdido!"
   } else if (resultadoPC > 7.5) {
     document.getElementById("demo2").innerHTML = 0;
     document.getElementById("puntuacion2").style.backgroundColor = "crimson";
